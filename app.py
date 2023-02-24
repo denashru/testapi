@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 from insurance_all.insurance_all import InsuranceAll
 import json
-model_pipeline = pickle.load(open('../models/lgbm_tuned_pipe.pkl', 'rb'))
+model_pipeline = pickle.load(open('models/lgbm_tuned_pipe.pkl', 'rb'))
 
 app = Flask(__name__)
 
